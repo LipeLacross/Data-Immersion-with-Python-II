@@ -1,18 +1,21 @@
 ## 🌐 [English Version of README](README_EN.md)
+## 🌐 [Portuguese Version of README](README.md)
 
 # Data Immersion with Python II
 
-The "Data Immersion with Python II" project aims to teach data analysis techniques using Python. The focus is on data manipulation and visualization using libraries such as `pandas` and `matplotlib`, as well as teaching best programming practices.
+"Data Immersion with Python II" is part of the Alura Data Immersion course. In this course, you will learn how to analyze, clean, and visualize data using Python, with a focus on practical applications. The project involves data manipulation using **pandas**, visualization with **matplotlib** and **seaborn**, and creating interactive dashboards using **Streamlit**. Additionally, it uses **pycountry** for country data processing.
 
 ## 🔨 Project Features
 
-This project performs various operations on data from a CSV file, such as:
+This project performs various operations on a dataset, including:
 
-- Reading data with `pandas`.
+- Data reading with **pandas** from CSV files.
 - Data cleaning and transformation.
 - Renaming dataset columns.
-- Exploratory analysis and descriptive statistics.
-- Data visualization using graphs.
+- Exploratory data analysis and descriptive statistics.
+- Data visualization with various chart types.
+- Creating an interactive dashboard using **Streamlit**.
+- Country data conversion using **pycountry**.
 
 ### 📸 Visual Example of the Project
 
@@ -23,16 +26,17 @@ This project performs various operations on data from a CSV file, such as:
 
 ## ✔️ Techniques and Technologies Used
 
-- **Python**: The main programming language used in the project.
-- **Pandas**: The library used for data manipulation and analysis.
-- **Matplotlib**: The library used for creating graphs and visualizations.
-- **Jupyter Notebooks**: The interactive environment for running the code.
-- **Streamlit**: Used to create the interactive web interface.
+- **Python**: The main programming language used for data analysis and manipulation.
+- **Pandas**: Library used for data manipulation and analysis.
+- **Matplotlib** and **Seaborn**: Libraries for creating statistical and distribution plots.
+- **Streamlit**: Used to build an interactive dashboard.
+- **Plotly**: For creating interactive charts and visualizations.
+- **Pycountry**: Used for converting country codes from ISO-2 to ISO-3 format.
 
 ## 📁 Project Structure
 
-- **Lessons_All-In-One.ipynb**: The main notebook containing all exercises and analyses.
-- **data/**: Directory containing data files (e.g., CSV).
+- **Lessons_All-In-One.ipynb**: Main notebook with exercises and analyses.
+- **data/**: Directory containing CSV data files.
 - **images/**: Folder with images used for visualizations.
 - **LICENSE**: Project license file.
 - **requirements.txt**: File containing project dependencies.
@@ -41,18 +45,18 @@ This project performs various operations on data from a CSV file, such as:
 
 To run the project locally, follow these steps:
 
-1. **Make sure Python is installed**:
-   - [Python](https://www.python.org/downloads/) is required to run the project. You can check if you have it installed by running:
+1. **Ensure Python is installed**:
+   - [Python](https://www.python.org/downloads/) is required to run the project. You can check if it's installed by running:
 
    ```bash
    python --version
 
 
-* If it's not installed, download and install the recommended version.
+* If Python is not installed, download and install the recommended version.
 
 2. **Install the project's dependencies**:
 
-   * To install the dependencies, run the following command in the terminal:
+   * To install the dependencies, run the following command in your terminal:
 
    ```bash
    pip install -r requirements.txt
@@ -60,7 +64,7 @@ To run the project locally, follow these steps:
 
 3. **Clone the Repository**:
 
-   * Copy the repository URL and run the following command in the terminal:
+   * Copy the repository URL and run the following command in your terminal:
 
    ```bash
    git clone <REPOSITORY_URL>

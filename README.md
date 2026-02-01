@@ -1,18 +1,20 @@
-## 🌐 [English Version of README](README_EN.md)
+## 🌐 [Versão em Inglês do README](README_EN.md)
 
-# Data Immersion with Python II
+# Imersão em Dados com Python II
 
-O projeto "Data Immersion with Python II" tem como objetivo ensinar técnicas de análise de dados utilizando Python. O foco é em manipulação e visualização de dados com bibliotecas como `pandas` e `matplotlib`, além de ensinar boas práticas de programação.
+"Imersão em Dados com Python II" é parte do curso Imersão em Dados da Alura. Neste curso, você aprenderá como analisar, limpar e visualizar dados utilizando Python, com foco em aplicações práticas. O projeto envolve manipulação de dados usando **pandas**, visualização com **matplotlib** e **seaborn**, e criação de dashboards interativos utilizando **Streamlit**. Além disso, utiliza **pycountry** para processamento de dados de países.
 
 ## 🔨 Funcionalidades do Projeto
 
-Este projeto realiza diversas operações sobre dados de um arquivo CSV, como:
+Este projeto realiza várias operações sobre um conjunto de dados, incluindo:
 
-- Leitura de dados com `pandas`.
+- Leitura de dados com **pandas** a partir de arquivos CSV.
 - Limpeza e transformação dos dados.
-- Renomeação das colunas do dataset.
-- Análise exploratória e estatísticas descritivas.
-- Visualização dos dados utilizando gráficos.
+- Renomeação das colunas do conjunto de dados.
+- Análise exploratória de dados e estatísticas descritivas.
+- Visualização de dados com vários tipos de gráficos.
+- Criação de um dashboard interativo usando **Streamlit**.
+- Conversão de dados de países usando **pycountry**.
 
 ### 📸 Exemplo Visual do Projeto
 
@@ -23,30 +25,30 @@ Este projeto realiza diversas operações sobre dados de um arquivo CSV, como:
 
 ## ✔️ Técnicas e Tecnologias Utilizadas
 
-- **Python**: Linguagem principal do projeto.
+- **Python**: Linguagem principal usada para análise e manipulação de dados.
 - **Pandas**: Biblioteca utilizada para manipulação e análise de dados.
-- **Matplotlib**: Biblioteca usada para criação de gráficos e visualizações.
-- **Jupyter Notebooks**: Ambiente para execução interativa do código.
-- **Streamlit**: Utilizado para criar a interface web interativa.
+- **Matplotlib** e **Seaborn**: Bibliotecas para criação de gráficos estatísticos e de distribuição.
+- **Streamlit**: Usado para criar um dashboard interativo.
+- **Plotly**: Para criar gráficos interativos.
+- **Pycountry**: Usado para converter códigos de países de ISO-2 para ISO-3.
 
 ## 📁 Estrutura do Projeto
 
-- **Lessons_All-In-One.ipynb**: Notebook principal contendo todos os exercícios e análises.
-- **data/**: Diretório contendo os arquivos de dados (como CSV).
+- **Lessons_All-In-One.ipynb**: Notebook principal com os exercícios e análises.
+- **data/**: Diretório contendo os arquivos de dados CSV.
 - **images/**: Pasta com imagens usadas para visualizações.
 - **LICENSE**: Arquivo de licença do projeto.
-- **requirements.txt**: Arquivo com as dependências do projeto.
+- **requirements.txt**: Arquivo contendo as dependências do projeto.
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Abrir e Rodar o Projeto
 
-Para iniciar o projeto localmente, siga os passos abaixo:
+Para rodar o projeto localmente, siga os passos abaixo:
 
 1. **Certifique-se de que o Python está instalado**:
    - O [Python](https://www.python.org/downloads/) é necessário para rodar o projeto. Você pode verificar se já o tem instalado com:
 
    ```bash
    python --version
-
 
 * Se não estiver instalado, baixe e instale a versão recomendada.
 
